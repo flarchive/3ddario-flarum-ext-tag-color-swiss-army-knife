@@ -1,0 +1,11 @@
+3ddario-tag-color-swiss-army-knife:
+  # For more details on the format
+  # Checkout https://docs.flarum.org/extend/i18n/#appendix-a-standard-key-format
+  admin:
+    stock_color:
+      helptext: If a custom text color has been specified, this setting will configure the background color of the label (tag).
+    text_color:
+      label: Text color
+      custom_label: Custom text color
+      helptext: Optional; leave empty to disable
+  forum:
