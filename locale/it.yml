@@ -1,0 +1,24 @@
+3ddario-tag-color-swiss-army-knife:
+  # For more details on the format
+  # Checkout https://docs.flarum.org/extend/i18n/#appendix-a-standard-key-format
+  admin:
+    stock_color:
+      helptext: Se è stato specificato un colore personalizzato del testo questa impostazione configurerà il colore dello sfondo dell'etichetta (tag)
+    text_color:
+      label: Colore del testo
+      custom_label: Colore personalizzato del testo
+      helptext: Opzionale; lascia vuoto per disattivare
+    discussion_hero_color_mode:
+      label: Modalità colorazione <code>DiscussionHero</code>
+      helptext: "Si applica solo in base alle impostazioni del primo tag del thread e solo se è stato specificato un colore personalizzato del testo. Cambia il metodo con il quale <code>DiscussionHero</code>, la sezione sopra al primo post di ogni thread, viene colorata. Controlla il <b><a>README</a></b> per vedere alcuni screenshot."
+      helptext_flarum_vanilla: "<b>Predefinito di Flarum:</b> allo sfondo di <code>DiscussionHero</code> si applica il colore dello sfondo del tag"
+      helptext_primary_bg_tag_full_color: "<b>Colore primario:</b> allo sfondo di <code>DiscussionHero</code> si applica il colore primario del forum; al titolo si applica il colore secondario"
+      helptext_tag_text_as_bg_tag_full_color: "<b>Colore personalizzato del testo:</b> allo sfondo di <code>DiscussionHero</code> si applica il colore personalizzato del testo del primo tag; al titolo si applica il colore di sfondo del primo tag"
+      helptext_tag_bg_as_bg_tag_full_color: "<b>Colore del tag:</b> allo sfondo di <code>DiscussionHero</code> si applica il colore di sfondo del primo tag; al titolo si applica il colore personalizzato del testo del primo tag"
+      options:
+        flarum_vanilla: "Predefinito di Flarum (sfondo: colore del tag)"
+        primary_bg_tag_full_color: "Colore primario del forum"
+        tag_text_as_bg_tag_full_color: "Colore personalizzato del testo"
+        tag_bg_as_bg_tag_full_color: "Colore del tag"
+    
+  forum:

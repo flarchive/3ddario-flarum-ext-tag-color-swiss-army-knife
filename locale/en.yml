@@ -1,0 +1,23 @@
+3ddario-tag-color-swiss-army-knife:
+  # For more details on the format
+  # Checkout https://docs.flarum.org/extend/i18n/#appendix-a-standard-key-format
+  admin:
+    stock_color:
+      helptext: If a custom text color has been specified, this setting will configure the background color of the label (tag).
+    text_color:
+      label: Text color
+      custom_label: Custom text color
+      helptext: Optional; leave empty to disable
+    discussion_hero_color_mode:
+      label: <code>DiscussionHero</code> color mode
+      helptext: "It applies based only on the settings of the first tag of the thread and only when a custom text color is chosen. It changes the way <code>DiscussionHero</code> is colored, which is the section above the first post of each thread. Check the <b><a>README</a></b> for some screenshots."
+      helptext_flarum_vanilla: "<b>Flarum default:</b> <code>DiscussionHero</code>'s background color is set to the tag's background"
+      helptext_primary_bg_tag_full_color: "<b>Primary forum color:</b> <code>DiscussionHero</code>'s background is set to the primary color of the forum; title is set to the secondary color"
+      helptext_tag_text_as_bg_tag_full_color: "<b>Tag custom text color:</b> <code>DiscussionHero</code>'s background is set to the first tag's custom text color; title is set to the background color of the first tag"
+      helptext_tag_bg_as_bg_tag_full_color: "<b>Tag color:</b> <code>DiscussionHero</code>'s background color is set to the background color of the first tag; title is set to the first tag's custom text color"
+      options:
+        flarum_vanilla: "Flarum default"
+        primary_bg_tag_full_color: "Primary forum color"
+        tag_text_as_bg_tag_full_color: "Tag custom text color"
+        tag_bg_as_bg_tag_full_color: "Tag color"
+  forum:
